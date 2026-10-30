@@ -1,0 +1,16 @@
+# local secrets / env
+.env
+.env.*
+!.env.example
+# generated upload bundle
+build/
+# Wix CLI link file, only if someone deliberately links this repo (see README)
+.wix/
+# Python / OS / editor noise
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
